@@ -14,4 +14,7 @@ resource "aws_instance" "server" {
     Name = "server ${each.key}"
 
   }
+
 }
+
+resource "null_resource" "example" {}
